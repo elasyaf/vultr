@@ -24,3 +24,11 @@
       state: started
       host: "{{ vultr_instances.vultr_server.v4_main_ip }}"
       port: 22
+
+- name: Public IP Address
+  debug:
+      msg: root password is : {{ vultr_instances.vultr_server.v4_main_ip }}
+
+- name: Show root login
+  debug:
+      msg: root password is : {{ vultr_instances.vultr_server.default_password }}
