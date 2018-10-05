@@ -13,6 +13,16 @@ Role Variables
 
 vr_server_name = Name for instance
 
+vultr.ini
+--------------
+```
+[default]
+key = YOUR_KEY
+timeout = 60
+```
+
+Replace YOUR_KEY with your API key
+
 
 Example Playbook
 ----------------
