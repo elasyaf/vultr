@@ -15,6 +15,9 @@ vr_server_name = Name for instance
 
 vultr.ini
 --------------
+
+Place your vultr.ini in same directory level with playbook
+
 ```
 [default]
 key = YOUR_KEY
