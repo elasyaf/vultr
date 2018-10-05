@@ -6,7 +6,6 @@
     os: Ubuntu 16.04 x64
     plan: 1024 MB RAM,25 GB SSD,1.00 TB BW
     region: Singapore
-    ssh_keys: "{{vultr_keys.vultr_ssh_key.id}}"
     state: present
   register: vultr_instances
 
