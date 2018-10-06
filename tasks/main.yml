@@ -27,7 +27,7 @@
 
 - name: Public IP Address
   debug:
-      msg: root password is {{ vultr_instances.vultr_server.v4_main_ip }}
+      msg: your ip address is {{ vultr_instances.vultr_server.v4_main_ip }}
 
 - name: Show root login
   debug:
